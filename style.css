@@ -1,7 +1,11 @@
+/* Reset styles */
 * {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
+}
+img{
+    max-width:100%;
 }
 /* common styles */
 .common-button{
@@ -15,14 +19,28 @@
     cursor:pointer;
 
 }
+.outline-button{
+    background-color:white;
+    padding:10px 20px;
+    border-radius:12px;
+    font-weight:bold;
+    font-size:22px;
+    color:#FD6E0A;
+    border:1px solid #FD6E0A;
+    cursor:pointer;
+
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
 
 
 nav {
  
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
-  margin: auto;
   padding: 10px 0;
 }
 .logo{
@@ -44,4 +62,34 @@ ul {
 
 ul li a {
   text-decoration: none;
+}
+
+/* Hero styles */
+.hero-section-root{
+    background-color:#fff8f3;
+}
+.hero-section{
+    display:flex;
+    justify-content:space-between; 
+    /* vertical center position = align-items */
+    align-items:center;
+    
+}
+.hero-left-p-1{
+    font-size:25px;
+    font-weight:600;
+}
+.hero-left h2{
+    font-weight:bold;
+    font-size:40px;
+    margin-bottom:20px;
+}
+.hero-left-button{
+    margin-top:20px;
+}
+ 
+/* About us css */
+.about-parents{
+    background-color:#fff8f3
+    margin: 70px 0;
 }
