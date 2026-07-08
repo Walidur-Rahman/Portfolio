@@ -1,12 +1,47 @@
-nav{
-    background-color: rgb(30, 153, 90);
-    display:flex;
-    justify-content: space-between ;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
-ul{
-    display:flex;
-    justify-content:space-between;
-    list-style:none;
-    gap:10px
+/* common styles */
+.common-button{
+    background-color:#FD6E0A;
+    padding:10px 20px;
+    border-radius:12px;
+    font-weight:bold;
+    font-size:22px;
+    color:white;
+    border:none;
+    cursor:pointer;
 
+}
+
+
+nav {
+ 
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px 0;
+}
+.logo{
+    font-weight:bold;
+    font-size:32px;
+}
+.logo-r{
+    color:#FD6E0A;
+}
+ul {
+  /* display flex used for placing list elements horizontallly */
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  /* gap uesed for making space between list element */
+  gap: 10px;
+  align-items:center;
+}
+
+ul li a {
+  text-decoration: none;
 }
