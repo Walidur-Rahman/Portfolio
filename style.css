@@ -1,31 +1,12 @@
-*{
-    padding:0;
-    margin:0;
-}
-header{
-    background-color:aqua;
-
-}
-.logo{
-    font-weight:bold;
-    font-size:32px;
-}
- 
-nav {
-    
+nav{
+    background-color: rgb(30, 153, 90);
     display:flex;
-    justify-content:space-between;
-     max-width:1200px;
-    margin:auto;
-    padding:12px 0;
+    justify-content: space-between ;
 }
 ul{
     display:flex;
     justify-content:space-between;
     list-style:none;
-    gap:10px;
-   
-}
-ul li{
-    text-decoration:none;
+    gap:10px
+
 }
